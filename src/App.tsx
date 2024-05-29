@@ -289,62 +289,6 @@ export const App = () => {
           </div>
         </div>
       </section>
-
-      <footer className="footer">
-        <div className="container">
-          <div className="footer-inner">
-            <div className="footer-inner__item">
-              <h4>{t("footer.itemTitle01")}</h4>
-              <p>{t("footer.itemText01")}</p>
-            </div>
-
-            <div className="footer-inner__item ">
-              <span>{t("footer.itemTitle02")}</span>
-              <div className="footer-inner__item_dp">
-                <p>
-                  <span>{t("footer.itemTitle02DPTitle01")}</span>
-                  {t("footer.itemTitle02DPText01")}
-                </p>
-                <p>
-                  <span>{t("footer.itemTitle03DPTitle02")}</span>
-                  {t("footer.itemTitle03DPText02")}
-                </p>
-                <p>
-                  <span>{t("footer.itemTitle04DPTitle03")}</span>
-                  {t("footer.itemTitle04DPText03")}
-                </p>
-              </div>
-            </div>
-
-            <div className="footer-inner__item ">
-              <h4>{t("footer.itemTitle05")}</h4>
-              <div className="footer-inner__item_dp">
-                <p>
-                  <span>{t("footer.itemTitle06DPTitle04")}</span>
-                  {t("footer.itemTitle06DPText04")}
-                </p>
-                <p>
-                  <span>{t("footer.itemTitle07DPTitle05")}</span>
-                  {t("footer.itemTitle07DPText05")}
-                </p>
-
-                <p>
-                  <span>{t("footer.itemTitle08DPTitle06")}</span>{" "}
-                  {t("footer.itemTitle08DPText06")}
-                </p>
-                <p>
-                  <span>{t("footer.itemTitle09DPTitle07")}</span>
-                  {t("footer.itemTitle09DPText07")}
-                </p>
-              </div>
-            </div>
-
-            <div className="footer-inner__item">
-              <p>{t("footer.itemTitle10")}</p>
-            </div>
-          </div>
-        </div>
-      </footer>
     </>
   );
 };
